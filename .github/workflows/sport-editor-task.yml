@@ -44,3 +44,10 @@ jobs:
           STED_SIZE_RANGE: ${{secrets.STED_SIZE_RANGE}}
 
         run: npm run start
+git clone https://github.com/Devifish/sport-editor.git
+
+cd sport-editor
+
+npm install
+
+npm run start
